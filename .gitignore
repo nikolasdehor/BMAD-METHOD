@@ -8,25 +8,19 @@ package-lock.json
 
 test-output/*
 coverage/
-
 # Logs
 logs/
 *.log
 npm-debug.log*
-
 # Build output
 build/*.txt
-
 # Environment variables
 .env
-
 # System files
 .DS_Store
 Thumbs.db
-
 # Development tools and configs
 .prettierrc
-
 # AI assistant files
 CLAUDE.md
 .ai/*
@@ -38,10 +32,8 @@ CLAUDE.local.md
 .claude/settings.local.json
 .junie/
 .agents/
-
 z*/
 !docs/zh-cn/
-
 _bmad
 _bmad-output
 .clinerules
@@ -66,9 +58,40 @@ _bmad-output
 .roo
 .trae
 .windsurf
-
-
 # Astro / Documentation Build
 website/.astro/
 website/dist/
 build/
+# Agent and local tooling caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.coverage
+htmlcov/
+node_modules/
+.next/
+dist/
+.turbo/
+.vite/
+tmp/
+temp/
+.codex/
+.codex-cache/
+.agents/cache/
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache.v3/
+.claude/cache/
+.claude/logs/
+.gemini/cache/
+.gemini/tmp/
+.serena/cache/
+.continue/cache/
+.playwright-mcp/
+playwright-report/
+test-results/
+agent-browser*.png
+browser-use*.log
